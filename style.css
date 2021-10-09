@@ -1,0 +1,167 @@
+body {
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 10px 140px 140px 200px;
+}
+
+.headerlink {
+    display: flex;
+    margin-bottom: 100px;
+    padding: 8px;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.contentheader {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.contenttext {
+    width: 420px;
+}
+
+.contentheader h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 800;
+    margin: 0;
+}
+
+.contentheader p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.imageheader {
+    width: 500px;
+    background-color:gray;
+}
+
+button.button-header {
+    padding: 7px 24px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #3882F6;
+    margin-top: 8px;
+}
+
+img.profilephoto {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    gap: 16px;
+    color: #E5E7EB
+}
+
+li {
+    font-size: 18px;
+}
+
+article.profile {
+    text-align: center;
+    padding: 70px 70px 140px 140px;
+}
+
+.divphotos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.divphotos div {
+    width: 160px;
+}
+
+.profiletext {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    margin-bottom: 50px;
+}
+
+.divphotos div p {
+    font-size: 18px;
+    margin: 0;
+}
+
+article.quote {
+    text-align: center;
+    padding: 70px 70px 140px 140px;
+    background-color: #E5E7EB;
+}
+
+.quote :first-child {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    padding: 0 50px;
+}
+.quote :last-child {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.singup {
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 200px;
+    padding: 50px 30px;
+    border-radius: 8px;
+}
+.singup div :first-child {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin: 0;
+    font-weight: bold;
+}
+
+.singup div :last-child {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.call {
+    padding: 7px 24px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #F9FAF8;
+    margin-top: 8px;
+}
+
+footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+    text-align: center;
+}
